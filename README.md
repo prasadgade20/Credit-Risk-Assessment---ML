@@ -133,101 +133,20 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture6_1_EasyEnsembleClassifier.PNG)
 
 
-1. pre (Precision)
-Definition: The proportion of correctly identified positive cases (e.g., high-risk loans) out of all cases predicted as positive.
-Formula:
-Precision
-=
-True Positives (TP)
-True Positives (TP)
-+
-False Positives (FP)
-Precision= 
-True Positives (TP)+False Positives (FP)
-True Positives (TP)
-​
- 
-Relevance: In credit risk, precision helps assess how many of the predicted high-risk loans are actually high-risk, minimizing false alarms.
-2. rec (Recall / Sensitivity)
-Definition: The proportion of correctly identified positive cases out of all actual positive cases.
-Formula:
-Recall
-=
-True Positives (TP)
-True Positives (TP)
-+
-False Negatives (FN)
-Recall= 
-True Positives (TP)+False Negatives (FN)
-True Positives (TP)
-​
- 
-Relevance: High recall ensures the model captures most of the high-risk loans, reducing the chances of missing risky borrowers.
-3. spe (Specificity)
-Definition: The proportion of correctly identified negative cases out of all actual negative cases.
-Formula:
-Specificity
-=
-True Negatives (TN)
-True Negatives (TN)
-+
-False Positives (FP)
-Specificity= 
-True Negatives (TN)+False Positives (FP)
-True Negatives (TN)
-​
- 
-Relevance: In credit risk, specificity ensures that low-risk borrowers are not incorrectly flagged as high-risk, preventing unnecessary rejections.
-4. f1 (F1 Score)
-Definition: The harmonic mean of precision and recall, providing a single measure of the model’s performance.
-Formula:
-F1 Score
-=
-2
-⋅
-Precision
-⋅
-Recall
-Precision
-+
-Recall
-F1 Score=2⋅ 
-Precision+Recall
-Precision⋅Recall
-​
- 
-Relevance: Balances precision and recall, especially important when there’s an imbalance between positive and negative cases (e.g., fewer high-risk loans).
-5. geo (Geometric Mean)
-Definition: The geometric mean of sensitivity (recall) and specificity.
-Formula:
-Geometric Mean
-=
-Sensitivity
-⋅
-Specificity
-Geometric Mean= 
-Sensitivity⋅Specificity
-​
- 
-Relevance: Useful for imbalanced datasets to give equal importance to detecting positive and negative cases.
-6. iba (Index of Balanced Accuracy)
-Definition: A weighted metric that combines sensitivity and specificity, often emphasizing the importance of one over the other.
-Formula (example, if weighted equally):
-IBA
-=
-Balanced Accuracy
-+
-Weight
-⋅
-(Specificity - Sensitivity)
-2
-IBA=Balanced Accuracy+Weight⋅(Specificity - Sensitivity) 
-2
- 
-Relevance: Tailored for datasets where a balance between classes (e.g., high-risk and low-risk loans) is needed.
-7. sup (Support)
-Definition: The number of samples in each class (e.g., high-risk or low-risk loans).
-Relevance: Indicates the class distribution, helping understand model performance across imbalanced datasets.
+ ![image](https://github.com/user-attachments/assets/47176cbf-35b9-43dc-a335-9cc41dffae9c)
+
+ ![image](https://github.com/user-attachments/assets/879d8f98-9b10-4464-a0a1-776a2ca16b86)
+
+ ![image](https://github.com/user-attachments/assets/0e668176-a4af-40c0-827d-38b0525656ba)
+
+ ![image](https://github.com/user-attachments/assets/bb47c43c-4c0b-4b47-ba0b-8096695ba514)
+
+ ![image](https://github.com/user-attachments/assets/a03409f2-a72b-415b-9e3c-147bbd806323)
+
+ ![image](https://github.com/user-attachments/assets/0e6fec0c-1c48-4cb5-9318-1ee7ed60b781)
+
+ ![image](https://github.com/user-attachments/assets/b2412cfd-e219-48c4-adda-cfa4ab66af26)
+
 
 
 ## SUMMARY
